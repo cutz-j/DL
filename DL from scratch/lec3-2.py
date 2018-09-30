@@ -8,7 +8,7 @@ def softmax_norm(a):
     sum_exp_a=np.sum(exp_a)
     return exp_a/sum_exp_a
 
-#print(softmax(a))
+print(softmax(a))
 
 a=np.array([1010, 1000, 990])
 
@@ -18,4 +18,4 @@ def softmax(a):
     sum_exp_a=np.sum(exp_a)
     return exp_a/sum_exp_a
 
-#print(softmax_sol(a))
+print(softmax_sol(a))
